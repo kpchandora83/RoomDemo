@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorScreenBackground"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/person_first_name"
+        style="@style/text_view_style"
+        android:hint="@string/hint_person_first_name"
+        android:inputType="textAutoComplete" />
+
+    <EditText
+        android:id="@+id/person_last_name"
+        style="@style/text_view_style"
+        android:hint="@string/hint_person_last_name"
+        android:inputType="textAutoComplete" />
+
+    <EditText
+        android:id="@+id/person_mobile_num"
+        style="@style/text_view_style"
+        android:hint="@string/hint_person_mobile"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button_save"
+        style="@style/button_style"
+        android:text="@string/button_save" />
+</LinearLayout>

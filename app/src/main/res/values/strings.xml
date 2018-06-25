@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RoomDemo</string>
+
+    <string name="hint_person_first_name">First Name</string>
+    <string name="hint_person_last_name">Last Name</string>
+    <string name="hint_person_mobile">Mobile No.</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Person not saved because it is empty.</string>
+</resources>
